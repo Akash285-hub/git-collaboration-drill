@@ -31,6 +31,6 @@
 9. log file-
     git log -> to see all the commit history
 
-10.   Pull -
+10.   Pull command-
     git pull origin main -> Used to fetch and download content from remote repo and immediately update the local repo to match the content
 
