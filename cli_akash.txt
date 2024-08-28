@@ -1,0 +1,22 @@
+1. xargs :
+echo "file1.txt file2.txt file3.txt" | xargs rm
+Used to transform the data coming in command line argument.
+
+2.printenv :
+This command used to display the values of environment variables in a Unix-like operating system.
+
+3. nano :
+nano filename.txt
+nano is a text editor as vs code which is used for the quick edits in terminal.
+
+4.awk :
+awk '{print $1, $3}' filename.txt
+This command is used for pattern scanning and processing.It performs searching patterns and manipulating text . 
+
+5. ifconfig
+The ifconfig command is used in Unix like operating systems to configure, manage, and query network interface settings.
+
+6. pgrep
+pgrep chrome
+This command is used to to search the process id (PId) .
+
