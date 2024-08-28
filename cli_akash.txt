@@ -1,4 +1,4 @@
-1. xargs :
+1. Xargs :
 echo "file1.txt file2.txt file3.txt" | xargs rm
 Used to transform the data coming in command line argument.
 
