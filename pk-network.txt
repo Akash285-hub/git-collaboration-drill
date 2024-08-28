@@ -1,0 +1,18 @@
+ifconfig: Displays or configures network interfaces.
+
+    ifconfig -a: Displays all network interfaces.
+
+ip:
+ A modern replacement for ifconfig, used to manage network interfaces
+ 
+ netstat: Displays network connections, routing tables, interface statistics, etc.
+
+    netstat -tuln: Lists all listening ports.
+
+nslookup: Queries DNS to obtain domain name or IP address mapping.
+
+    nslookup google.com: Queries DNS to get the IP address for google.com.
+
+dig: Performs DNS lookups.
+
+    dig google.com: Retrieves DNS information for the domain.

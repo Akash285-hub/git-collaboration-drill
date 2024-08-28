@@ -1,0 +1,18 @@
+ls: List directory contents.
+cd: Change the directory.
+pwd: Print working directory.
+cp: Copy files or directories.
+mv: Move/rename files or directories.
+rm: Remove files or directories.
+mkdir: Make a new directory.
+rmdir: Remove an empty directory.
+touch: Create a new empty file or update a file's timestamp.
+chmod: Change file permissions.
+chown: Change file owner and group.
+grep: Search for patterns within text files.
+find: Search for files and directories.
+tar: Archive files.
+zip/unzip: Compress and decompress files.
+cat: Concatenate and display file content.
+nano/vi/vim: Text editors.
+sudo: Execute a command as a superuser.

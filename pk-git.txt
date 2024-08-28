@@ -1,0 +1,24 @@
+ping:
+
+    Sends ICMP echo requests to test connectivity to a network host.
+    Example: ping google.com.
+
+ifconfig / ip addr:
+
+    Displays or configures network interfaces.
+    Example: ifconfig or ip addr show.
+
+traceroute:
+
+    Shows the path packets take to a network host.
+    Example: traceroute google.com.
+
+netstat:
+
+    Displays network connections, routing tables, interface statistics, masquerade connections, and multicast memberships.
+    Example: netstat -an.
+
+ss:
+
+    Displays detailed network socket information.
+    Example: ss -tuln - Lists listening ports.

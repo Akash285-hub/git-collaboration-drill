@@ -1,0 +1,9 @@
+1. Headings
+To create a heading, add one to six # symbols before your heading text. The number of # you use will determine the hierarchy level and typeface size of the heading.
+2.Styling text
+You can indicate emphasis with bold, italic, strikethrough, subscript, or superscript text in comment fields and .md files.
+3.Quotoing Text
+You can call out code or a command within a sentence with single backticks. The text within the backticks will not be formatted. You can also press the Command+E (Mac) or Ctrl+E (Windows/Linux) keyboard shortcut to insert the backticks for a code block within a line of Markdown.
+4.Images
+You can display an image by adding ! and wrapping the alt text in [ ]. Alt text is a short text equivalent of the information in the image. Then, wrap the link for the image in parentheses ().
+
