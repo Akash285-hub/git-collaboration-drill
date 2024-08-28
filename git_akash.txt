@@ -1,0 +1,34 @@
+1.Git Configure :
+  git config --global user.name "akash" : set username
+  git config --global user.email "akashladwa64@gmail.com" : set email
+
+2. Git clone :
+  git clone <url> -> To clone a repo on our local machine
+
+3. Git status :
+  git status -> Display the status of code
+
+4. Add :
+   git add <file_name> add new or changed file in my working dir to the git staging area
+
+5. Commit : 
+   git commit -m "commit meassage" : It is the record of changed
+
+6.  Push :
+   git push origin main -> Upload local area content to remote app
+
+7. Init :
+   git init : used to create a new git app
+
+8. Branch command list :
+   git checkout -b <branch_name> : new branch will be created and switched to that branch 
+   git checout <branch_name> : to move a branch
+   git branch : to check branch
+   gti merge <branch_merge> : to merge all branch 
+   git push origin -- delete <branch_name> : To delete branch
+
+9. Log file :
+   git log : to see all the commit history
+
+10. Pull :
+  git pull orgin main: used to fetch and download content from remote repo immediately upadet the local repo to match the content

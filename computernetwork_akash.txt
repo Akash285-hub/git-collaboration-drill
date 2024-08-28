@@ -1,0 +1,14 @@
+1. ifconfig :
+Displays network interface configuration.
+
+2. traceroute :
+Traces the route to a destination.
+
+3. netstat :
+Displays network connections and statistics.
+
+4. nslookup :
+Queries DNS to obtain domain name or IP address information.
+
+5. arp(Address Resolution protocol) :
+Used to see and include content in the arp table.
