@@ -1,4 +1,4 @@
-1. xargs :
+1. Xargs :
 echo "file1.txt file2.txt file3.txt" | xargs rm
 Used to transform the data coming in command line argument.
 
@@ -13,10 +13,17 @@ nano is a text editor as vs code which is used for the quick edits in terminal.
 awk '{print $1, $3}' filename.txt
 This command is used for pattern scanning and processing.It performs searching patterns and manipulating text . 
 
+<<<<<<< HEAD
+5. ifconfig
+The ifconfig command is used in Unix like operating systems to configure, manage, and query network interface settings.
+
+6. pgrep
+=======
 5. ifconfig :
 The ifconfig command is used in Unix like operating systems to configure, manage, and query network interface settings.
 
 6. pgrep :
+>>>>>>> 9828a8f79e2cdbec813c506ed66fcbe9c954d799
 pgrep chrome
 This command is used to to search the process id (PId) .
 
