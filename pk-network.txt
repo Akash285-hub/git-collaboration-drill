@@ -1,18 +1,27 @@
-ifconfig: Displays or configures network interfaces.
+A computer network is a collection of interconnected devices (such as computers, servers, smartphones, and other hardware) that communicate with each other to share resources, information, and services. 
 
-    ifconfig -a: Displays all network interfaces.
+Types of Networks:
 
-ip:
- A modern replacement for ifconfig, used to manage network interfaces
- 
- netstat: Displays network connections, routing tables, interface statistics, etc.
+Local Area Network (LAN): A network confined to a small geographic area.
+Wide Area Network (WAN): A network that covers a broad area.
 
-    netstat -tuln: Lists all listening ports.
 
-nslookup: Queries DNS to obtain domain name or IP address mapping.
+Metropolitan Area Network (MAN): Covers a larger area than a LAN but smaller than a WAN.
 
-    nslookup google.com: Queries DNS to get the IP address for google.com.
+Personal Area Network (PAN): A small network, often used for connecting devices like smartphones and laptops within a very short range.
 
-dig: Performs DNS lookups.
+Wireless Local Area Network (WLAN): Similar to LAN but uses wireless connections.
 
-    dig google.com: Retrieves DNS information for the domain.
+Protocol: A set of rules and conventions for communication between network devices. 
+
+TCP/IP (Transmission Control Protocol/Internet Protocol)
+
+HTTP/HTTPS (Hypertext Transfer Protocol/Secure)
+
+FTP (File Transfer Protocol)
+
+IP Address: A unique identifier assigned to each device on a network.
+
+IPv4: Uses a 32-bit address scheme allowing for over 4 billion unique addresses.
+
+IPv6: Uses a 128-bit address scheme, vastly expanding the number of possible addresses.

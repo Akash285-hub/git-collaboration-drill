@@ -1,24 +1,61 @@
-ping:
+Basic Setup
 
-    Sends ICMP echo requests to test connectivity to a network host.
-    Example: ping google.com.
+git config --global user.name "Your Name": Sets the global username.
 
-ifconfig / ip addr:
+git config --global user.email "your.email@example.com": Sets the global email.
 
-    Displays or configures network interfaces.
-    Example: ifconfig or ip addr show.
+git config --list: Lists all configuration settings.
 
-traceroute:
+Repository Management
 
-    Shows the path packets take to a network host.
-    Example: traceroute google.com.
+git init: Creates a new repository in the current directory.
 
-netstat:
+git init /path/to/repo: Creates a new repository in the specified directory.
 
-    Displays network connections, routing tables, interface statistics, masquerade connections, and multicast memberships.
-    Example: netstat -an.
+git clone https://github.com/user/repo.git: Clones the repository into a new directory.
 
-ss:
+git clone https://github.com/user/repo.git mydir: Clones the repository into a directory named mydir.
 
-    Displays detailed network socket information.
-    Example: ss -tuln - Lists listening ports.
+ Basic Operations
+ 
+ git status: Displays which files have changes that are staged, unstaged, or untracked.
+ 
+ git add file.txt: Stages the file for the next commit.
+ 
+ git add .: Stages all changes in the current directory and its subdirectories.
+ 
+ git commit -m "commit message": Commits with a message describing the changes.
+ 
+ git commit -a -m "commit message": Stages and commits all tracked files with changes.
+ 
+ git diff: Displays changes not yet staged.
+ 
+ git diff --staged: Shows changes between the staging area and the last commit.
+ 
+ git log: Lists commits in the current branch.
+ 
+ git branch: Lists all local branches.
+ 
+ git branch branch_name: Creates a new branch called branch_name.
+ 
+ git branch -d branch_name: Deletes the specified branch.
+ 
+ git checkout branch_name: Switches to the specified branch.
+ 
+ git checkout -b new_branch: Creates and switches to a new branch.
+ 
+ git checkout -- file.txt: Discards changes in the working directory.
+ 
+ git merge branch_name: Merges the specified branch into the current branch.
+ 
+ git remote -v: Lists all remote connections
+ 
+ git remote add origin https://github.com/user/repo.git: Adds a new remote repository.
+ 
+ git remote remove origin: Removes the specified remote repository.
+ 
+ git pull origin main: Fetches and merges changes from the main branch of origin.
+ 
+ git push origin branch_name: Pushes the specified branch to the remote origin.
+ 
+ git push -u origin branch_name: Pushes the branch and sets it to track the remote branch.
