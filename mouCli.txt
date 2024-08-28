@@ -1,0 +1,26 @@
+1. RSYNC-
+    rsync [option] source destination -> Tranfering files across different systems or location
+    rsync file.csv root@10.211.55.5:/temp/rsync ->Here in destination after @ is remote server ip followed by location
+
+
+2. tree -> Used to display hierarchical structure of directories or sub -directories in a tree like format
+
+3. lspci -> Displays the machine h/w info. 
+
+4. Wild card characters-
+    * -> matches any no of characters
+    ? -> matches exactly one characters
+    [] -> matches any one of the enclosed characters
+    {} -> matches a group of patterns
+    ^ -> matches the start of a line
+    $ -> matches end of a line
+
+5. printenv -> print the values of envirionment variable
+
+6. awk -
+    awk '{print $2,$4}' <filename> -> It processes each line of a file and performs actions based on patterns i specify. (it will display 2nd and 4th column)
+    awk '{print @NF}' <filename> -> display only last column
+
+7. xargs -> (Extended arguments) Used to convert the data coming in command line argument.
+    
+    date | xargs echo

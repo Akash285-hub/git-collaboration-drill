@@ -1,0 +1,23 @@
+1. Headings-
+    To create heading add # before any heading
+    # Moutusi
+
+2. Quoting a text-
+    I quoted a text with > symbol and after that it displays in different color
+
+3. Links-
+
+    We can create an inline link by wrapping link text in brackets [ ], and then wrapping the URL in parentheses ( ).
+    [github link](url)
+
+4. Lists - 
+    We can make an unordered list by preceding one or more lines of text with -, *, or +
+    - Moutusi
+    * Mou
+    + M
+
+5. Images -
+    We can  display an image by adding ! and wrap the link for the image in parentheses () and text in [ ].
+    ![my pictire](link)
+
+    

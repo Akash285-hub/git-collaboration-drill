@@ -1,0 +1,36 @@
+1. Configure git - 
+    git config --global user.name "moutusi"  -> set username
+    git config --global user.email "moutusi.slg01@gmail.com" -> set email
+
+2.Clone -
+    git clone <url> -> To clone a repo on our local machine
+
+3. status-
+    git status -> Display the status of code
+
+4. Add-
+    git add <filename> -> add new or changed files in my working dir to the git staging area
+    git add . -> here. means all(all will be added to git staging area) 
+
+5. Commit-
+     git commit -m "commit message" -> It is the record of changed
+
+6. Push-
+     git push origin main -> Upload local repo content to remote repo
+
+7. Init-
+    git init -> used to create a new git repo
+
+8. Branch command list-
+    git checkout -b <branch-name> -> new branch will be created and switched to that branch
+    git checkout <branch-name> -> to move to a branch
+    git branch -> to check branch  
+    git merge <branch-name> -> to merge all branch 
+    git push origin --delete <branch-name> -> To delete branch 
+
+9. log file-
+    git log -> to see all the commit history
+
+10.   Pull -
+    git pull origin main -> Used to fetch and download content from remote repo and immediately update the local repo to match the content
+

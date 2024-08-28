@@ -1,0 +1,23 @@
+Computer network  refers to interconnected computing devices that can exchange data between nodes over a shared medium. 
+
+There are 3 main types of computer network that are classified by their geographical coverage, communication, data transfer speed and size-
+1. LAN 
+2. MAN 
+3. WAN 
+
+Network Topologies-
+1.Star - Each node is connected to a central hub
+2. Ring - All other nodes are connected to each other forming by a Ring (first node is connected to last one)
+3. Mesh - Each node in mesh network connects to every other node
+4. Bus - Every device in a bus network connects to a single cable called bus
+5. Tree - It is a hybrid network topology
+
+OSI model-
+There are 7 layers-
+1. Physical layer  -> convert data into bits
+2. Data link layer  -> convert bit into frame 
+3. Network layer  -> convert frame into packets
+4. Transport layer  -> convert packet into segments
+5. seesion layer  -> responsible for dialog control and synchronization
+6. presentation layer -> responsible for translation, encryption and compression
+7. Application layer -> user directly interact with data
