@@ -1,0 +1,21 @@
+1. Headings:
+This command is used to create heading with the help of symbol #.
+ #Akash
+
+2. Lists:
+We can create an unordered list by preceding one or more list with -,*,+.
+- Akash
+* Aman
++ Varun
+
+3. Emoji's :
+We can add emoji in our writing by typing :EMOJICODE:, a colon followed by the name of the emoji.
+
+4. Section links :
+We can link directly to a section in a rendered file by hovering over the section heading to expose.
+
+5. Images :
+We can display an image by adding ! and wrap the link for the image in paranthesis () and text in [ ].
+
+
+
